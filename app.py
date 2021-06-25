@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import cv2
+from flask_gtts import gtts
 from keras.models import load_model
 import numpy as np
 from tensorflow.keras.applications import ResNet50
@@ -56,7 +57,7 @@ cnn_model = Model(inputs = incept_model.input,outputs = last)
 
 
 app = Flask(__name__)
-
+gtts(app)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 1
 
 
