@@ -74,12 +74,16 @@ def upload():
 
 
         img = request.files['file']
-        # Save the file to ./uploads
-        img.save('uploads/file.jpg')
         lang = request.form['Language']
+        
+        # Save the file to ./uploads
+        basepath = os.path.dirname(__file__)
+        file_path = os.path.join(
+            basepath, 'uploads', secure_filename(f.filename))
+        f.save(file_path)
 
    
-        image = cv2.imread('uploads/file.jpg')
+        image = cv2.imread(file_path)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image = cv2.resize(image, (224,224))
         image = np.reshape(image, (1,224,224,3))
