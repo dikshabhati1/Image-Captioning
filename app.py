@@ -79,8 +79,8 @@ def upload():
         # Save the file to ./uploads
         basepath = os.path.dirname(__file__)
         file_path = os.path.join(
-            basepath, 'uploads', secure_filename(f.filename))
-        f.save(file_path)
+            basepath, 'uploads', secure_filename(img.filename))
+        img.save(file_path)
 
    
         image = cv2.imread(file_path)
