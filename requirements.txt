@@ -1,5 +1,0 @@
-Flask==1.0.2
-tqdm==4.28.1
-numpy==1.19.5
-tensorflow==2.5.0
-flask_gtts==0.18
