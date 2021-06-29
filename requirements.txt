@@ -1,0 +1,6 @@
+Keras==2.2.4
+Flask==1.0.2
+tqdm==4.28.1
+numpy==1.19.5
+tensorflow==1.13.1
+flask_gtts==0.18
