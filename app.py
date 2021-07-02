@@ -10,7 +10,6 @@ from keras.models import Sequential, Model
 from keras.utils import np_utils
 from keras.preprocessing import image, sequence
 from keras.preprocessing.sequence import pad_sequences
-from tqdm import tqdm
 import numpy as np
 
 
@@ -95,7 +94,7 @@ def upload():
         result = ''
 
         count = 0
-        while tqdm(count < 20):
+        while count < 20:
 
             count += 1
 
