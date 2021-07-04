@@ -21,7 +21,8 @@ inv_vocab = {v:k for k,v in vocab.items()}
 
 
 embedding_size = 128
-vocab_size = len(vocab)+1
+# vocab_size = len(vocab)+1
+vocab_size = 3748
 max_len = 37
 
 image_model = Sequential()
