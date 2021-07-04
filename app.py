@@ -1,15 +1,15 @@
 from flask import Flask, render_template, request
 import cv2
 from flask_gtts import gtts
-from keras.models import load_model
-import numpy as np
-from tensorflow.keras.applications import ResNet50
-from keras.optimizers import Adam
-from keras.layers import Dense, Flatten,Input, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector,Concatenate
-from keras.models import Sequential, Model
-from keras.utils import np_utils
-from keras.preprocessing import image, sequence
-from keras.preprocessing.sequence import pad_sequences
+import tensorflow as tf
+from tf.keras.models import load_model
+from tf.keras.applications import ResNet50
+from tf.keras.optimizers import Adam
+from tf.keras.layers import Dense, Flatten,Input, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector,Concatenate
+from tf.keras.models import Sequential, Model
+from tf.keras.utils import np_utils
+from tf.keras.preprocessing import image, sequence
+from tf.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 
