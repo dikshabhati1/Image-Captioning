@@ -7,7 +7,7 @@ from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.layers import Dense, Flatten,Input, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector,Concatenate
 from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.utils import np_utils
+from tensorflow.keras.utils import utils
 from tensorflow.keras.preprocessing import image, sequence
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
