@@ -1,15 +1,17 @@
 from flask import Flask, render_template, request
+from werkzeug.utils import secure_filename
+import os
 import cv2
 from flask_gtts import gtts
-from keras.models import load_model
-import numpy as np
+import tensorflow as tf
+from tensorflow.keras.models import load_model
 from tensorflow.keras.applications import ResNet50
-from keras.optimizers import Adam
-from keras.layers import Dense, Flatten,Input, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector,Concatenate
-from keras.models import Sequential, Model
-from keras.utils import np_utils
-from keras.preprocessing import image, sequence
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.layers import Dense, Flatten,Input, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector,Concatenate
+from tensorflow.keras.models import Sequential, Model
+# from tensorflow.keras import utils
+from tensorflow.keras.preprocessing import image, sequence
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
 
@@ -21,7 +23,8 @@ inv_vocab = {v:k for k,v in vocab.items()}
 
 
 embedding_size = 128
-vocab_size = len(vocab)+1
+# vocab_size = len(vocab)+1
+vocab_size = 3748
 max_len = 37
 
 image_model = Sequential()
