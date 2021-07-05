@@ -4,6 +4,7 @@ import os
 import cv2
 from flask_gtts import gtts
 import tensorflow as tf
+from google_trans_new import google_translator
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.optimizers import Adam
