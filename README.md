@@ -7,13 +7,14 @@ Image caption Generator is a research area of Artificial Intelligence that deals
 I have made a flask web app in which I have used google translate API to convert into the captions into different languages and Flask gtts to convert the captions into audio
 <br>
 <br>
+![](results/ezgif.com-gif-maker (1).gif)<br>
+
 ![](results/result1.JPG)<br>
 
 
 ![](results/result2.JPG)<br>
 
 
-![](results/InShot_20210708_092207694.mp4)<br>
 
 
 
