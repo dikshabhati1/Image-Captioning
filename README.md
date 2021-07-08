@@ -22,3 +22,6 @@ Below is the architecture of our model
 Due to memeory issues the model is trained on 1300 images with 150 epochs and got a accuracy around 89%
 
 ![](results/accuracy.png)
+
+# Reference
+This [github repository](https://github.com/zhjohnchan/awesome-image-captioning) contains comprehensive collection of deep learning research papers from all premier conferences of image captioning and related area.
