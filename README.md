@@ -9,3 +9,6 @@ Our model will treat CNN as the ‘image model’ and the RNN/LSTM as the ‘lan
 Below is the architecture of our model
 
 ![](model-architecture.png)
+
+# Results
+Due to memeory issues the model is trained on 1300 images with 150 epochs
