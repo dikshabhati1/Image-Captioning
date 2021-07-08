@@ -11,4 +11,6 @@ Below is the architecture of our model
 ![](model-architecture.png)
 
 # Results
-Due to memeory issues the model is trained on 1300 images with 150 epochs
+Due to memeory issues the model is trained on 1300 images with 150 epochs and got a accuracy around 89%
+
+![](results/accuracy.png)
