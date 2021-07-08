@@ -9,7 +9,13 @@ I have made a flask web app in which I have used google translate API to convert
 <br>
 ![](results/result1.JPG)<br>
 
+
 ![](results/result2.JPG)<br>
+
+
+![](results/InShot_20210708_092207694.mp4)<br>
+
+
 
 # Approach
 This problem uses an Encoder-Decoder model. Here encoder model will combine both the encoded form of the image and the encoded form of the text caption and feed to the decoder.
