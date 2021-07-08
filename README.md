@@ -4,6 +4,7 @@
 Image caption Generator is a research area of Artificial Intelligence that deals with image understanding and a language description for that image. Generating well-formed sentences requires both syntactic and semantic understanding of the language. Being able to describe the content of an image using accurately formed sentences is a very challenging task, but it could also have a great impact, by **helping visually impaired people better understand the content of images**. 
 
 # Flask Demo
+I have made a flask web app in which I have used google translate API to convert into the captions into different languages and Flask gtts to convert the captions into audio
 ![](results/result1.JPG)<br>
 
 ![](results/result2.JPG)<br>
