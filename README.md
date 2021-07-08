@@ -13,7 +13,7 @@ I have made a flask web app in which I have used google translate API to convert
 ![](results/result2.JPG)<br>
 
 
-![](InShot_20210708_092207694.mp4 )<br>
+![](https://user-images.githubusercontent.com/70757239/124862115-6ecd3300-dfd2-11eb-8d87-87a630ad6fa8.mp4)<br>
 
 
 
